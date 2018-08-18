@@ -1,0 +1,32 @@
+.postsDesign1 {
+  display: inline-block;
+  width: 400px;
+  margin-bottom: 60px;
+
+  .imgWr {
+    height: 220px;
+
+    overflow: hidden;
+  }
+
+  .imgWr img {
+    width: 100%;
+  }
+
+  .text {
+    display: block;
+    padding: 15px 0px;
+  }
+
+  .date {
+    display: inline-block;
+    padding: 10px;
+    background-color: #442d41;
+    color: aliceblue;
+    font-size: 12px;
+  }
+
+  .link {
+    display: block;
+  }
+}

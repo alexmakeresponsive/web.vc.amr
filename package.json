@@ -1,0 +1,13 @@
+{
+  "name": "Hbs:Bitbucket:Amr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pdn": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
