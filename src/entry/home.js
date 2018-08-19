@@ -10,7 +10,8 @@ var data = {
         },
         categories: require('../data/pages/works/categories').link
     },
-    works: require('../data/works/category/default')
+    works: require('../data/works/category/default'),
+    page: require('../data/pages/home'),
 };
 
 
@@ -22,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
         NavItems: data.nav.main,
         NavCategories: data.nav.works.categories,
         NavCategoriesLink: data.nav.categories,
-        works: data.works
+        works: data.works,
+        dataPage: data.page
     });
 
     // console.log(div.innerHTML);

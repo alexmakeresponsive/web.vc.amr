@@ -1,18 +1,11 @@
 {{> ../Header/Header}}
 
 
-
-<!-- Button trigger modal -->
-<!--<button type="button" class="btn btn-primary" data-toggle="modal" id="btnModal">
-    Launch demo modal
-</button>-->
-
-<!-- Modal -->
-<!-- Modal -->
-
+<p>{{dataPage.text}}</p>
 
 
 <div class="works">
+    <b><p>{{dataPage.titleSub}}</p></b>
     <a href={{NavCategoriesLink}}>by categories</a>
     {{#each works}}
         {{> ../Works/list/default/markup}}
