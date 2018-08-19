@@ -1,0 +1,32 @@
+{{> ../Header/Header}}
+
+
+
+<!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" id="btnModal">
+    Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<!-- Modal -->
+
+
+
+<div class="works">
+    <div class="categories">
+        <ul class="list">
+            {{#each NavCategories}}
+                <li>
+                    <a href={{link}}/{{id}}>{{label}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    {{#each works}}
+        {{> ../Works/list/default/markup}}
+    {{/each}}
+</div>
+
+{{> ../Footer/Footer}}
+
+

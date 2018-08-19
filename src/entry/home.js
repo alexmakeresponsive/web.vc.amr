@@ -1,27 +1,28 @@
-import bookListingTemplate from "../templates/partials/Body/BodyHome.handlebars";
+var template = {
+    body: require('../templates/partials/Body/home.handlebars')
+};
 
-import NavItemsData from '../data/navitems';
-import postsCategoryDefaultData from '../data/posts/categoryDefault/posts';
-
-
-// import '../hub.js';
-
-// import fse from 'fs-extra';
-
-
-
-// var someFile = fse.readFile();
-
-
+var data = {
+    nav: {
+        main: require('../data/navitems'),
+        works: {
+            categories: require('../data/pages/works/categories')
+        }
+    },
+    // posts: require('../data/posts/categoryDefault/posts'),
+    works: require('../data/works/category/default')
+};
 
 
 document.addEventListener("DOMContentLoaded", function() {
 
     var div = document.createElement('div');
 
-    div.innerHTML = bookListingTemplate({
-        NavItems: NavItemsData,
-        postsCategoryDefault: postsCategoryDefaultData
+    div.innerHTML = template.body({
+        NavItems: data.nav.main,
+        NavCategories: data.nav.works.categories,
+        works: data.works
+        // postsCategoryDefault: data.posts,
     });
 
     // console.log(div.innerHTML);

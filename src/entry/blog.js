@@ -2,12 +2,12 @@
 
 
 var template = {
-    body: require('../templates/partials/Body/about.handlebars')
+    body: require('../templates/partials/Body/blog.handlebars')
 };
 
 var data = {
     nav:  require('../data/navitems'),
-    page: require('../data/pages/about'),
+    page: require('../data/pages/blog'),
 };
 
 

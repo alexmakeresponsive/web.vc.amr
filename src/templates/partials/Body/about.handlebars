@@ -1,0 +1,26 @@
+{{> ../Header/Header}}
+
+<div class="container">
+    About page
+
+    <h1>{{dataPage.title}}</h1>
+    <p>{{dataPage.text}}</p>
+
+
+    <b>Contacts</b>
+    <p>
+        <a href="mailto:{{dataPage.contacts.mail}}">{{dataPage.contacts.mail}}</a>
+    </p>
+    <ul>
+        {{#each dataPage.contacts.social}}
+            <li>
+                <a href={{link}} target="_blank">
+                    <img src={{iconPath}} alt="">
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</div>
+
+{{> ../Footer/Footer}}
+

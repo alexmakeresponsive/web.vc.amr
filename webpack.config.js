@@ -40,7 +40,9 @@ var plugins = [
 var entryPoints = {
     './templates/home.templates.min':        ["./entry/home.js"],
     './templates/about.templates.min':       ["./entry/about.js"],
+    './templates/blog.templates.min':       ["./entry/blog.js"],
     './templates/default.templates.min':     ["./entry/single/post/category/default.js"],
+    './templates/works/codeigniter.templates.min':     ["./entry/single/work/category/codeigniter.js"],
 
     './design/vendor/scripts.vendor.min': './design/vendor/hubScripts.js',
     './design/theme/scripts.theme.min': './design/theme/hubScripts.js',

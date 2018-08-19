@@ -1,0 +1,21 @@
+{{> ../Header/Header}}
+
+<div class="container">
+    Blog page
+
+    <h1>{{dataPage.title}}</h1>
+    <p>{{dataPage.text}}</p>
+
+    <ul>
+        {{#each dataPage.sources}}
+            <li>
+                <a href={{link}} target="_blank">
+                    {{label}}
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</div>
+
+{{> ../Footer/Footer}}
+

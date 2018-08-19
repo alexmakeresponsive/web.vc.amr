@@ -1,18 +1,21 @@
 
 var template = {
-    body: require('../../../../templates/partials/Body/single/post/category/default.handlebars')
+    body: require('../../../../templates/partials/Body/single/work/category/default.handlebars')
 };
 
 var data = {
     nav:   require('../../../../data/navitems'),
-    post: {
-        category: require('../../../../data/posts/categoryDefault/posts')
+    // post: {
+    //     category: require('../../../../data/posts/categoryDefault/posts')
+    // },
+    work: {
+        category: require('../../../../data/works/category/codeigniter')
     }
 };
 
 
 var postId = window.location.search.replace( /^\D+/g, '') * 1;
-var posts  = data.post.category;
+var posts  = data.work.category;
 
 
 function findPostId(array, postId) {

@@ -1,3 +1,7 @@
+/*
+* Create path for hosting sources
+* */
+
 var locationOrigin = window.location.origin;
 var urlHostPath;
 
