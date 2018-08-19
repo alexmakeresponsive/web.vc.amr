@@ -37,6 +37,11 @@ var data = {
             id: 'magento',
             label: 'CMS Magento',
             link: linkValue
+        },
+        {
+            id: 'php',
+            label: 'Pure PHP',
+            link: linkValue
         }
     ]
 };
