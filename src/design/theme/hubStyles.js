@@ -1,9 +1,13 @@
-import stylesDesignCommon from './styles/common/common.scss';
+//design folder
+import './styles/normalize.scss';
+import './styles/sprite.scss';
+import './styles/font-faces.scss';
 
-import srtlesPartialsHub from '../../templates/partials/hub.js';
+import './styles/common/common.scss';
+import './styles/common/icons.scss';
+import './styles/common/images.scss';
+import './styles/common/links.scss';
 
 
-// export {
-//     stylesDesignCommon,
-//     srtlesPartialsHub
-// }
+//templates folder
+import '../../templates/partials/hub.js';

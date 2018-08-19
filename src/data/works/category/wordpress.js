@@ -10,7 +10,7 @@ var works = [
         text:  'Extend theme, change styles',
         imgSrc: urlHostPath + 'assets/images/works/category/wordpress/1/1.png',
         imgAlt: '',
-        createDate: '01-10-2016'
+        createDate: '01-10-2016',
     }
 ];
 
