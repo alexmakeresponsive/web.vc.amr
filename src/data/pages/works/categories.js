@@ -37,11 +37,6 @@ var data = {
             id: 'magento',
             label: 'CMS Magento',
             link: linkValue
-        },
-        {
-            id: 'october',
-            label: 'CMS October',
-            link: linkValue
         }
     ]
 };
