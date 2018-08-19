@@ -1,4 +1,5 @@
 var worksCodeIgniter = require('./codeigniter');
+var worksWordpress = require('./wordpress');
 var worksDefault = [];
 
 
@@ -12,6 +13,7 @@ function pushTo( arrTo, arrFrom ) {
 
 
 pushTo( worksDefault, worksCodeIgniter );
+pushTo( worksDefault, worksWordpress );
 
 
 module.exports = worksDefault;

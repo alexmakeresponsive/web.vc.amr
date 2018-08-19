@@ -6,10 +6,10 @@ var data = {
     nav: {
         main: require('../data/navitems'),
         works: {
-            categories: require('../data/pages/works/categories')
-        }
+            categories: require('../data/pages/works/categories').data
+        },
+        categories: require('../data/pages/works/categories').link
     },
-    // posts: require('../data/posts/categoryDefault/posts'),
     works: require('../data/works/category/default')
 };
 
@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
     div.innerHTML = template.body({
         NavItems: data.nav.main,
         NavCategories: data.nav.works.categories,
+        NavCategoriesLink: data.nav.categories,
         works: data.works
-        // postsCategoryDefault: data.posts,
     });
 
     // console.log(div.innerHTML);

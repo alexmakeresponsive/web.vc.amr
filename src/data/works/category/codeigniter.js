@@ -8,7 +8,7 @@ var works = [
         link: linkValue,
         title: 'Launchmaps',
         text:  'Extend some options on backend',
-        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1.png',
+        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '01-03-2018'
     }

@@ -1,0 +1,31 @@
+{{> ../../Header/Header}}
+
+<div class="container">
+    Categories page
+
+    <h1>{{dataPage.title}}</h1>
+    <p>{{dataPage.text}}</p>
+
+
+
+    <div class="categories">
+        <b>Categories</b>
+        <nav>
+            <ul class="list">
+                {{#each NavCategories}}
+                    <li>
+                        <a href={{link}}?id_category={{id}}>{{label}}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </nav>
+    </div>
+    <div class="works">
+        {{#each works}}
+            {{> ../../Works/list/default/markup}}
+        {{/each}}
+    </div>
+</div>
+
+{{> ../../Footer/Footer}}
+

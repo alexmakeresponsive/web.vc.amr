@@ -1,3 +1,20 @@
+function getCategory() {
+    var pre = window.location.pathname.replace( /\/works\//g, '' );
+    var result = pre.replace( /.html/g, '' );
+    // console.log(pre);
+
+
+    if (result.length === 0) {
+        return 'default';
+    }
+
+    return result;
+}
+
+function getId() {
+    return window.location.search.replace( /^\D+/g, '') * 1;
+}
+
 
 var template = {
     body: require('../../../../templates/partials/Body/single/work/category/default.handlebars')
@@ -5,16 +22,14 @@ var template = {
 
 var data = {
     nav:   require('../../../../data/navitems'),
-    // post: {
-    //     category: require('../../../../data/posts/categoryDefault/posts')
-    // },
     work: {
-        category: require('../../../../data/works/category/codeigniter')
+        category: require('../../../../data/works/category/' + getCategory() )
     }
 };
 
 
-var postId = window.location.search.replace( /^\D+/g, '') * 1;
+
+var postId = getId();
 var posts  = data.work.category;
 
 
