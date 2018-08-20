@@ -4,13 +4,16 @@
 <p>{{dataPage.text}}</p>
 
 
-<div class="works">
+<div class="works" id="worksHomeContainer">
     <b><p>{{dataPage.titleSub}}</p></b>
     <a href={{NavCategoriesLink}}>by categories</a>
     {{#each works}}
         {{> ../Works/list/default/markup}}
     {{/each}}
 </div>
+
+<button id="buttonWorksLoadMore">Load more works</button>
+
 
 {{> ../Footer/Footer}}
 
