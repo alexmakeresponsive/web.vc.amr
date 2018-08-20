@@ -22,6 +22,7 @@ function getCategory() {
   return result;
 }
 
+var loadmore = require('../../logic/ajax/loadmore');
 
 var template = {
     body: require('../../templates/partials/Body/works/categories.handlebars')
@@ -34,8 +35,18 @@ var data = {
             categories: require('../../data/pages/works/categories').data
         }
     },
-    works: require('../../data/works/category/' + getCategory() ),
+    works: {
+        first: require('../../data/works/category/' + getCategory() ).slice(0,2),
+        last: require('../../data/works/category/' + getCategory() ).slice(2)
+    },
 };
+
+window.addEventListener("DOMContentLoaded", function () {
+    var container = document.querySelector('#worksCategoriesContainer');
+    var button    = document.querySelector('#buttonWorksCategoriesLoadMore');
+
+    loadmore( data.works.last, container, button );
+});
 
 
 
@@ -45,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
         dataPage: data.page,
         NavCategories: data.nav.works.categories,
         NavItems: data.nav.main,
-        works: data.works
+        works: data.works.first
     });
     document.body.appendChild(div);
 });

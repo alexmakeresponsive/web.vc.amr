@@ -1,22 +1,21 @@
-module.exports = function ( lastWorks ) {
-
-
-    window.addEventListener("DOMContentLoaded", function () {
-        var container = document.querySelector('#worksHomeContainer');
-        var button    = document.querySelector('#buttonWorksLoadMore');
-
+module.exports = function ( data, container, button  ) {
         // console.log(container);
         // console.log(button);
 
 
         if ( !button && !container ) {
-            console.log('returtn!');
+            // console.log( container );
+            // console.log( button );
+            console.log('return!');
             return;
         }
 
+        console.log( container );
+        console.log( button );
+
 
         var works = {
-            last: lastWorks
+            last: data
         };
 
 
@@ -58,5 +57,5 @@ module.exports = function ( lastWorks ) {
 
             console.log(works.last);
         })
-    });
+
 };

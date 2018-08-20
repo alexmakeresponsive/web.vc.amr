@@ -20,11 +20,15 @@ var data = {
 };
 
 
+window.addEventListener("DOMContentLoaded", function () {
+    var container = document.querySelector('#worksHomeContainer');
+    var button    = document.querySelector('#buttonWorksHomeLoadMore');
 
+    // console.log( container );
+    // console.log( button );
 
-
-loadmore( data.works.last );
-
+    loadmore( data.works.last, container, button );
+});
 
 
 

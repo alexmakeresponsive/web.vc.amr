@@ -20,11 +20,13 @@
             </ul>
         </nav>
     </div>
-    <div class="works">
+    <div class="works" id="worksCategoriesContainer">
         {{#each works}}
             {{> ../../Works/list/default/markup}}
         {{/each}}
     </div>
+
+    <button id="buttonWorksCategoriesLoadMore">Load more works</button>
 </div>
 
 {{> ../../Footer/Footer}}

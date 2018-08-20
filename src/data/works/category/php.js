@@ -20,6 +20,15 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/php/2/1.png',
         imgAlt: '',
         createDate: '10-08-2018',
+    },
+    {
+        id: 3,
+        link: linkValue,
+        title: 'Траснпортная компания Дилижанс ДВ',
+        text:  'Clean and send mail via PHP',
+        imgSrc: urlHostPath + 'assets/images/works/category/php/3/1.png',
+        imgAlt: '',
+        createDate: '10-11-2017',
     }
 ];
 
