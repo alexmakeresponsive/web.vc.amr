@@ -26,7 +26,12 @@
         {{/each}}
     </div>
 
-    <button id="buttonWorksCategoriesLoadMore">Load more works</button>
+
+    {{#if works}}
+        <button id="buttonWorksCategoriesLoadMore">Load more works</button>
+    {{/if}}
+
+
 </div>
 
 {{> ../../Footer/Footer}}

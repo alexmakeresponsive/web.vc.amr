@@ -42,6 +42,16 @@ var data = {
             id: 'php',
             label: 'Pure PHP',
             link: linkValue
+        },
+        {
+            id: 'templates-html',
+            label: 'HTML Templates',
+            link: linkValue
+        },
+        {
+            id: 'templates-e-mail',
+            label: 'E-mail Templates',
+            link: linkValue
         }
     ]
 };

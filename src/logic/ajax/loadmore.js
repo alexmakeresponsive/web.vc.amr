@@ -10,8 +10,8 @@ module.exports = function ( data, container, button  ) {
             return;
         }
 
-        console.log( container );
-        console.log( button );
+        // console.log( container );
+        // console.log( button );
 
 
         var works = {
