@@ -1,4 +1,5 @@
 import './Body/home.scss';
+import './Body/works/categories.scss';
 import './Header/styles.scss';
 
 import './Nav/Item/styles.scss';
