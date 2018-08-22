@@ -1,9 +1,9 @@
 var data = {
-    title: 'Blog page title',
+    title: 'I use this services for write posts:',
     text: 'DEVELOPER POSTS',
     sources: [
         {
-            label: 'Habr',
+            label: 'habr',
             link: 'https://habr.com/users/-USER-NAME-/posts/'
         },
         {

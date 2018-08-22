@@ -1,20 +1,18 @@
 {{> ../Header/Header}}
 
-<div class="container">
-    Blog page
+<div class="bodyBlog">
 
-    <h1>{{dataPage.title}}</h1>
-    <p>{{dataPage.text}}</p>
+    <b class="title-2-Center">{{dataPage.title}}</b>
 
-    <ul>
+    <div class="linksContainer">
         {{#each dataPage.sources}}
-            <li>
-                <a href={{link}} target="_blank">
+
+                <a class="link" href={{link}} target="_blank">
                     {{label}}
                 </a>
-            </li>
+
         {{/each}}
-    </ul>
+    </div>
 </div>
 
 {{> ../Footer/Footer}}
