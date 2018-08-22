@@ -1,6 +1,6 @@
 var data = {
     title: 'About page title',
-    text: 'ABOUT DEVELOPER',
+    text: 'Say hello. Let\'s work together!',
     contacts: {
         mail: 'alexmakeresponsive@mail.ru',
         social: [

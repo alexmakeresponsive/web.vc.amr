@@ -1,25 +1,28 @@
 {{> ../Header/Header}}
 
-<div class="container">
-    About page
-
-    <h1>{{dataPage.title}}</h1>
-    <p>{{dataPage.text}}</p>
+<div class="bodyAbout">
 
 
-    <b>Contacts</b>
-    <p>
+    <!--<h1>{{dataPage.title}}</h1>-->
+    <p class="titleMain">{{dataPage.text}}</p>
+
+
+    <b class="title-3-Center">Contacts</b>
+
+    <p class="text-center">
+        <b class="title-2-Center">E-mail</b>
         <a href="mailto:{{dataPage.contacts.mail}}">{{dataPage.contacts.mail}}</a>
     </p>
-    <ul>
-        {{#each dataPage.contacts.social}}
-            <li>
-                <a href={{link}} target="_blank">
-                    <img src={{iconPath}} alt="">
-                </a>
-            </li>
-        {{/each}}
-    </ul>
+    <p class="text-center">
+        <b class="title-2-Center">Social</b>
+
+            {{#each dataPage.contacts.social}}
+                    <a href={{link}} target="_blank">
+                        <img class="iconImg" src={{iconPath}} alt="">
+                    </a>
+            {{/each}}
+
+    </p>
 </div>
 
 {{> ../Footer/Footer}}

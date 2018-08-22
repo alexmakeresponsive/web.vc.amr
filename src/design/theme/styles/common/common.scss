@@ -14,3 +14,30 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.title-1-Center {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.title-2-Center {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.title-3-Center {
+  display: block;
+  margin-top: 40px;
+  //margin-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.text-center {
+  text-align: center;
+}

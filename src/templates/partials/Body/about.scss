@@ -1,0 +1,17 @@
+@import "../../../design/theme/styles/variables";
+
+.bodyAbout {
+  .iconImg {
+    width: 64px;
+    height: 64px;
+  }
+
+  .titleMain {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.5;
+    font-family: $font-family-2, sans-serif;
+  }
+}
