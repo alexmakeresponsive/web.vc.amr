@@ -1,7 +1,11 @@
-import stylesNavItem  from './Nav/Item/styles.scss';
-// import scriptsNavItem from './Nav/scripts.js';
+import './Body/home.scss';
+import './Header/styles.scss';
 
-import stylesPostsDesign1 from './Works/list/default/styles.scss';
-import stylesPostDesign1  from './Works/single/default/styles.scss';
+import './Nav/Item/styles.scss';
+import './Nav/styles.scss';
+import './Logo//styles.scss';
+
+import './Works/list/default/styles.scss';
+import './Works/single/default/styles.scss';
 
 

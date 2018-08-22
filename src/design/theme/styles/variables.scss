@@ -1,7 +1,17 @@
-$fonts-path:        '../../../../assets/fonts';
+$fonts-path:        '/assets/fonts';
 
 
 $font-family-1:     '';
+//$font-family-logo:     'Platina';
+$font-family-logo:     'EVAA';
+
+
+$font-family-body:     'Lato-Regular';
+$font-size-body:    14px;
+$line-height-body:  1.5;
+
+$font-family-2:     'Lato-Bold';
+$font-family-3:     'EVAA';
 //._font-family-#{$number}
 
 
@@ -22,11 +32,9 @@ $font-sizes-heights: (
 //._font-#{$size}-#{$line-height}
 
 
-$font-family-body:  $font-family-1;
 
 
-$font-size-body:    16px;
-$line-height-body:  25px;
+
 
 
 $color-theme:       #555555;

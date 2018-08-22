@@ -1,19 +1,25 @@
 {{> ../Header/Header}}
 
+<div class="bodyHome">
+    <p class="textMain">{{dataPage.text}}</p>
 
-<p>{{dataPage.text}}</p>
 
+    <div class="works" >
+        <div class="navWorks containerCenter">
+            <span class="title">{{dataPage.titleSub}}</span> / &nbsp;
+            <a href={{NavCategoriesLink}}>by categories</a>
+        </div>
+        <div class="partWorks" id="worksHomeContainer">
+        {{#each works}}
+            {{> ../Works/list/default/markup}}
+        {{/each}}
+        </div>
+    </div>
 
-<div class="works" id="worksHomeContainer">
-    <b><p>{{dataPage.titleSub}}</p></b>
-    <a href={{NavCategoriesLink}}>by categories</a>
-    {{#each works}}
-        {{> ../Works/list/default/markup}}
-    {{/each}}
+    <div class="containerCenter">
+        <button class="button button-1" id="buttonWorksHomeLoadMore">Load more works</button>
+    </div>
 </div>
-
-<button id="buttonWorksHomeLoadMore">Load more works</button>
-
 
 {{> ../Footer/Footer}}
 

@@ -11,6 +11,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/magento/1/1.png',
         imgAlt: '',
         createDate: '01-10-2017',
+        letter: 'B',
+        color: {
+            color: '#ffffff',
+            background: '#cb593a'
+        }
     },
     {
         id: 2,
@@ -20,6 +25,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/magento/2/1.png',
         imgAlt: '',
         createDate: '01-02-2018',
+        letter: 'F',
+        color: {
+            color: '#ffffff',
+            background: '#9b9e84'
+        }
     }
 ];
 

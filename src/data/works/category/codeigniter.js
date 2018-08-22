@@ -11,6 +11,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '01-03-2018',
+        letter: 'L',
+        color: {
+            color: '#ffffff',
+            background: '#007cbe'
+        }
     }
 ];
 

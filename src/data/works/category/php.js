@@ -11,6 +11,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/php/1/1.png',
         imgAlt: '',
         createDate: '01-08-2018',
+        letter: 'D',
+        color: {
+            color: '#ffffff',
+            background: '#232321'
+        }
     },
     {
         id: 2,
@@ -20,6 +25,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/php/2/1.png',
         imgAlt: '',
         createDate: '10-08-2018',
+        letter: 'H',
+        color: {
+            color: '#ffffff',
+            background: '#3db67a'
+        }
     },
     {
         id: 3,
@@ -29,6 +39,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/php/3/1.png',
         imgAlt: '',
         createDate: '10-11-2017',
+        letter: 'D',
+        color: {
+            color: '#38414a',
+            background: '#48becb'
+        }
     }
 ];
 

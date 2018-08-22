@@ -1,4 +1,12 @@
 @import "mixins";
 @import "variables";
 
-@include font-face( '#{$font-family-1}', '#{$fonts-path}/', normal, normal, woff );
+//@include font-face( '#{$font-family-1}', '#{$fonts-path}/', normal, normal, woff );
+//@include font-face( '#{$font-family-logo}', '#{$fonts-path}/Platina/PLATINA', normal, normal, woff );
+
+
+@include font-face( '#{$font-family-logo}', '#{$fonts-path}/EVAA/EVAA', normal, normal, woff );
+
+@include font-face( '#{$font-family-body}', '#{$fonts-path}/Lato/Lato-Regular', normal, normal, woff );
+@include font-face( '#{$font-family-2}', '#{$fonts-path}/Lato/Lato-Bold', normal, normal, woff );
+

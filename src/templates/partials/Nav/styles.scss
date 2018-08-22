@@ -1,0 +1,18 @@
+@import "../../../design/theme/styles/variables";
+
+.nav {
+  overflow: hidden;
+  .list {
+    position: absolute;
+    //width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

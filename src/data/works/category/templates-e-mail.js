@@ -11,6 +11,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/1/1.png',
         imgAlt: '',
         createDate: '-',
+        letter: 'B',
+        color: {
+            color: '#ffffff',
+            background: '#be442f'
+        }
     },
     {
         id: 2,
@@ -20,6 +25,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/2/1.png',
         imgAlt: '',
         createDate: '-',
+        letter: 'S',
+        color: {
+            color: '#ffffff',
+            background: '#00b9f7'
+        }
     },
     {
         id: 3,
@@ -29,6 +39,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/3/1.png',
         imgAlt: '',
         createDate: '-',
+        letter: 'E',
+        color: {
+            color: '#ffffff',
+            background: '#d00b0f'
+        }
     },
     {
         id: 4,
@@ -38,6 +53,11 @@ var works = [
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/4/1.png',
         imgAlt: '',
         createDate: '-',
+        letter: 'N',
+        color: {
+            color: '#ffffff',
+            background: '#852e61'
+        }
     },
 ];
 

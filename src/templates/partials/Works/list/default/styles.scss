@@ -1,0 +1,34 @@
+@import "../../../../../design/theme/styles/variables";
+
+.partWorks {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 50%;
+
+    .imgWr {
+      height: 600px;
+    }
+
+    .wr {
+      display: flex;
+      justify-content: center;
+      align-items:center;
+
+      height: 600px;
+      font-family: $font-family-3;
+      font-size: 200px;
+    }
+
+    a {
+      display: block;
+    }
+  }
+}

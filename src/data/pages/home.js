@@ -1,7 +1,7 @@
 var data = {
     title: 'Home page title',
-    titleSub: 'All my works',
-    text: 'Hello, my name is Alexandr Gorchakov, i am web backend developer from Omsk',
+    titleSub: 'All works',
+    text: 'Hello, my name is Alexandr Gorchakov, i am web developer from Omsk',
 };
 
 module.exports = data;
