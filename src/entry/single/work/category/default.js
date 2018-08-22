@@ -1,7 +1,9 @@
 function getCategory() {
     var pre = window.location.pathname.replace( /\/works\//g, '' );
     var result = pre.replace( /.html/g, '' );
+
     // console.log(pre);
+    // console.log(result);
 
 
     if (result.length === 0) {

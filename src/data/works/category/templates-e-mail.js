@@ -15,6 +15,23 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#be442f'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru/'
+            },
+            {
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            }
+        ],
+        features: [
+            'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE9+ Support'
+        ],
+        time: {
+            plan: '3 days',
+            real: '3 days'
         }
     },
     {
@@ -29,6 +46,19 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#00b9f7'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru/'
+            }
+        ],
+        features: [
+            'XHTML'
+        ],
+        time: {
+            plan: '3 days',
+            real: '3 days'
         }
     },
     {
@@ -43,6 +73,19 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#d00b0f'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru/'
+            }
+        ],
+        features: [
+            'XHTML'
+        ],
+        time: {
+            plan: '3 days',
+            real: '3 days'
         }
     },
     {
@@ -57,6 +100,19 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#852e61'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru/'
+            }
+        ],
+        features: [
+            'XHTML'
+        ],
+        time: {
+            plan: '3 days',
+            real: '3 days'
         }
     },
 ];

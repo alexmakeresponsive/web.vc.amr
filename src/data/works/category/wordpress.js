@@ -15,6 +15,23 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#232321'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'http://careerwoman.ru/'
+            }
+        ],
+        features: [
+            'Wordpress',
+            'PHP',
+            'SQL',
+            'jQuery',
+            'CSS'
+        ],
+        time: {
+            plan: '10 days',
+            real: '10 days'
         }
     },
     {
@@ -29,6 +46,21 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#427290'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru/'
+            }
+        ],
+        features: [
+            'Wordpress',
+            'PHP',
+            'SQL',
+        ],
+        time: {
+            plan: '25 days',
+            real: '25 days'
         }
     }
 ];

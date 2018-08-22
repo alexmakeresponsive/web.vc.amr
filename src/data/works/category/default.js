@@ -2,7 +2,7 @@ var worksCodeIgniter = require('./codeigniter');
 var worksWordpress   = require('./wordpress');
 var worksMagento     = require('./magento');
 var worksPHP     = require('./php');
-var worksTemplates     = require('./templates-html');
+var worksTemplates     = require('./templates-webpage');
 var worksEMails     = require('./templates-e-mail');
 
 var worksDefault = [];

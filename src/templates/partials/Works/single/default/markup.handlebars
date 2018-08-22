@@ -33,9 +33,11 @@
                     <td class="first">Web links:</td>
                     <td class="second">
                         {{#each web}}
+                            {{#if this}}
                             <p>
                                 <a target="_blank" href="{{this.url}}">{{this.label}} &rArr;</a>
                             </p>
+                            {{/if}}
                         {{/each}}
                     </td>
                 </tr>

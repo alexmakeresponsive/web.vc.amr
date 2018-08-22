@@ -44,7 +44,7 @@ var data = {
             link: linkValue
         },
         {
-            id: 'templates-html',
+            id: 'templates-webpage',
             label: 'HTML Templates',
             link: linkValue
         },

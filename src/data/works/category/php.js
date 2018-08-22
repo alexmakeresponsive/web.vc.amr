@@ -39,7 +39,7 @@ var works = [
         id: 2,
         link: linkValue,
         title: 'Сервис предоставлени кредитов',
-        text:  'Clean and send mail via PHP',
+        text:  'Clean and send mail via PHP. Create 3 step form',
         imgSrc: urlHostPath + 'assets/images/works/category/php/2/1.png',
         imgAlt: '',
         createDate: '10-08-2018',
@@ -48,8 +48,23 @@ var works = [
             color: '#ffffff',
             background: '#3db67a'
         },
-        web: {
-
+        web: [
+            {
+                label: 'result',
+                url: 'http://heeelp.ru/'
+            },
+            {
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            }
+        ],
+        features: [
+            'PHP',
+            'jQuery'
+        ],
+        time: {
+            plan: '10 days',
+            real: '10 days'
         }
     },
     {
@@ -64,6 +79,23 @@ var works = [
         color: {
             color: '#38414a',
             background: '#48becb'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'http://www.dilijansdv.ru/'
+            },
+            {
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            }
+        ],
+        features: [
+            'PHP Mailer',
+        ],
+        time: {
+            plan: '1 day',
+            real: '1 day'
         }
     }
 ];

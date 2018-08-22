@@ -15,6 +15,22 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#007cbe'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'https://launchmaps.com/'
+            }
+        ],
+        features: [
+            'Codeigniter',
+            'PHP',
+            'SQL',
+            'jQuery'
+        ],
+        time: {
+            plan: '5 days',
+            real: '5 days'
         }
     }
 ];
