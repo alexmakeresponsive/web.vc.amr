@@ -15,6 +15,24 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#232321'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'http://ddurf.ru/'
+            },
+            {
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            }
+        ],
+        features: [
+            'PHP',
+            'hosting'
+        ],
+        time: {
+            plan: '2 days',
+            real: '3 days'
         }
     },
     {
@@ -29,6 +47,9 @@ var works = [
         color: {
             color: '#ffffff',
             background: '#3db67a'
+        },
+        web: {
+
         }
     },
     {

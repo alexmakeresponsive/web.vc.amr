@@ -41,28 +41,31 @@ function findPostId(array, postId) {
 }
 
 var currentPostIndex = findPostId(posts, postId);
-var postData;
+var work;
 var error = '';
 
 if ( currentPostIndex !== false ) {
-    postData = posts[currentPostIndex];
+    work = posts[currentPostIndex];
 } else {
-    postData = {};
+    work = {};
     error = 'Post not found';
 }
 
-// console.log(postData);
+// console.log(work);
 
 
 document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
     div.innerHTML = template.body({
         NavItems: data.nav,
-        title: postData.title,
-        text: postData.text,
-        imgSrc: postData.imgSrc,
-        imgAlt: postData.imgAlt,
-        createDate: postData.createDate,
+        title: work.title,
+        text: work.text,
+        imgSrc: work.imgSrc,
+        imgAlt: work.imgAlt,
+        createDate: work.createDate,
+        features: work.features,
+        time: work.time,
+        web: work.web,
         error: error,
     });
     document.body.appendChild(div);

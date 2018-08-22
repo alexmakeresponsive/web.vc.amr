@@ -1,14 +1,45 @@
-<div class="singleWork">
-    <h3 class="title">{{title}}</h3>
+<div class="partSingleWork">
 
-    <div class="imgWr">
-        <img src={{imgSrc}} alt={{imgAlt}}>
-    </div>
+    <b class="titleSingleWork">Project description</b>
 
-    <div class="text">
-        {{text}}
+    <div class="tableWr">
+        <table class="table table-1">
+            <tbody>
+                <tr>
+                    <td class="first">time plan:</td>
+                    <td class="second">{{time.plan}}</td>
+                </tr>
+                <tr>
+                    <td class="first">time real:</td>
+                    <td class="second">{{time.real}}</td>
+                </tr>
+                <tr>
+                    <td class="first">Description:</td>
+                    <td class="second">{{text}}</td>
+                </tr>
+                <tr>
+                    <td class="first">Features:</td>
+                    <td class="second">
+                        {{#each features}}
+                            <span class="pill pill-1">{{this}}</span>
+                        {{/each}}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="first">Job created date:</td>
+                    <td class="second">{{createDate}}</td>
+                </tr>
+                <tr>
+                    <td class="first">Web links:</td>
+                    <td class="second">
+                        {{#each web}}
+                            <p>
+                                <a target="_blank" href="{{this.url}}">{{this.label}} &rArr;</a>
+                            </p>
+                        {{/each}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <span class="date">{{createDate}}</span>
 </div>
-
-<h1>Work single template</h1>

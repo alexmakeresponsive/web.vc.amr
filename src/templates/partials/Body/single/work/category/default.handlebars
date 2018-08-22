@@ -1,15 +1,13 @@
 {{> ../../../../Header/Header}}
 
 
-<h2>Body Single Post default 2-test</h2>
-
-
-{{#if error}}
-    {{error}}
-{{else}}
-    {{> ../../../../Works/single/default/markup.handlebars}}
-{{/if}}
-
+<div class="bodySingleWork">
+    {{#if error}}
+        {{error}}
+    {{else}}
+        {{> ../../../../Works/single/default/markup.handlebars}}
+    {{/if}}
+</div>
 
 
 {{> ../../../../Footer/Footer}}
