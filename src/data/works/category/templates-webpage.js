@@ -10,7 +10,7 @@ var works = [
         text:  'Create html template',
         imgSrc: urlHostPath + 'assets/images/works/category/html/1/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '01-05-2017',
         letter: 'G',
         color: {
             color: '#000',
@@ -21,10 +21,10 @@ var works = [
                 label: 'view',
                 url: 'https://alexmakeresponsive.ru/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE9+ Support'
@@ -50,7 +50,7 @@ var works = [
         text:  'Create html template',
         imgSrc: urlHostPath + 'assets/images/works/category/html/3/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '05-05-2017',
         letter: 'E',
         color: {
             color: '#ffffff',
@@ -65,10 +65,10 @@ var works = [
                 label: 'result',
                 url: 'http://evenza.ru/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE10+ Support'
@@ -97,9 +97,17 @@ var works = [
                 url: 'http://heeelp.ru/credit'
             },
             {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+                label: 'result',
+                url: 'http://heeelp.ru/credit/step2'
+            },
+            {
+                label: 'result',
+                url: 'http://heeelp.ru/work'
+            },
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'HTML', 'CSS', 'jQuery'
@@ -127,10 +135,10 @@ var works = [
                 label: 'result',
                 url: 'http://shtab.opmoscow.ru/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE10+ Support'
@@ -158,10 +166,10 @@ var works = [
                 label: 'result',
                 url: 'http://ddurf.ru/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'HTML', 'CSS', 'jQuery'
@@ -186,13 +194,13 @@ var works = [
         },
         web: [
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
+                label: 'instagram',
+                url: 'https://www.instagram.com/wphospital/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'HTML', 'SASS', 'BEM', 'Bootstrap', 'jQuery', 'IE10+ Support',

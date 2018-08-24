@@ -34,18 +34,18 @@
                     <td class="first">Job created date:</td>
                     <td class="second">{{createDate}}</td>
                 </tr>
+                {{#if web}}
                 <tr>
                     <td class="first">Web links:</td>
                     <td class="second">
                         {{#each web}}
-                            {{#if this}}
-                            <p>
-                                <a target="_blank" href="{{this.url}}">{{this.label}} &rArr;</a>
-                            </p>
-                            {{/if}}
+                        <p>
+                            <a target="_blank" href="{{this.url}}">{{this.label}} &rArr;</a>
+                        </p>
                         {{/each}}
                     </td>
                 </tr>
+                {{/if}}
             </tbody>
         </table>
     </div>

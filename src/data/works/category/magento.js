@@ -48,13 +48,13 @@ var works = [
             background: '#9b9e84'
         },
         web: [
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
-            'Magento 2',
+            'Magento 1',
             'PHP',
             'SQL',
             'jQuery',

@@ -55,6 +55,13 @@ if ( currentPostIndex !== false ) {
 
 // console.log(work);
 
+function getWeb() {
+    if ( work.web.length !== 0 ) {
+        return work.web;
+    }
+
+    return null;
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
@@ -67,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
         createDate: work.createDate,
         features: work.features,
         time: work.time,
-        web: work.web,
+        web: getWeb(),
         error: error,
     });
     document.body.appendChild(div);

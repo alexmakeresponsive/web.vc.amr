@@ -48,10 +48,18 @@ var works = [
             background: '#427290'
         },
         web: [
+            // {
+            //     label: 'view',
+            //     url: 'https://alexmakeresponsive.ru/'
+            // },
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
-            }
+                label: 'instagram',
+                url: 'https://www.instagram.com/wphospital/'
+            },
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'Wordpress',

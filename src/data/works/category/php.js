@@ -21,10 +21,10 @@ var works = [
                 label: 'result',
                 url: 'http://ddurf.ru/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'PHP',
@@ -51,12 +51,20 @@ var works = [
         web: [
             {
                 label: 'result',
-                url: 'http://heeelp.ru/'
+                url: 'http://heeelp.ru/credit'
             },
             {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+                label: 'result',
+                url: 'http://heeelp.ru/credit/step2'
+            },
+            {
+                label: 'result',
+                url: 'http://heeelp.ru/work'
+            },
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'PHP',
@@ -85,10 +93,10 @@ var works = [
                 label: 'result',
                 url: 'http://www.dilijansdv.ru/'
             },
-            {
-                label: 'bitbucket',
-                url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            }
+            // {
+            //     label: 'bitbucket',
+            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+            // }
         ],
         features: [
             'PHP Mailer',
