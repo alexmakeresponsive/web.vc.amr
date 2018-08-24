@@ -19,7 +19,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
+                url: 'https://alexmakeresponsive.ru/projects/customer/templates-e-mail/biglead'
             },
             // {
             //     label: 'bitbucket',
@@ -48,10 +48,10 @@ var works = [
             background: '#00b9f7'
         },
         web: [
-            {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
-            }
+            // {
+            //     label: 'view',
+            //     url: 'https://alexmakeresponsive.ru/'
+            // }
         ],
         features: [
             'XHTML'
@@ -77,7 +77,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
+                url: 'https://alexmakeresponsive.ru/projects/customer/templates-e-mail/evenza'
             }
         ],
         features: [
@@ -104,7 +104,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
+                url: 'https://alexmakeresponsive.ru/projects/customer/templates-e-mail/nail-lifehacks'
             }
         ],
         features: [
