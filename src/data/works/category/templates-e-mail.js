@@ -30,8 +30,8 @@ var works = [
             'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE9+ Support'
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '1 days',
+            real: '1 days'
         }
     },
     {
@@ -57,8 +57,8 @@ var works = [
             'XHTML'
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '1 days',
+            real: '1 days'
         }
     },
     {
@@ -111,8 +111,8 @@ var works = [
             'XHTML'
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '1 days',
+            real: '1 days'
         }
     },
 ];

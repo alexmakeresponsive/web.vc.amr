@@ -74,8 +74,8 @@ var works = [
             'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE10+ Support'
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '7 days',
+            real: '7 days'
         }
     },
     {
@@ -113,8 +113,8 @@ var works = [
             'HTML', 'CSS', 'jQuery'
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '6 days',
+            real: '6 days'
         }
     },
     {
@@ -175,8 +175,8 @@ var works = [
             'HTML', 'CSS', 'jQuery'
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '1 days',
+            real: '1 days'
         }
     },
     {
@@ -206,8 +206,8 @@ var works = [
             'HTML', 'SASS', 'BEM', 'Bootstrap', 'jQuery', 'IE10+ Support',
         ],
         time: {
-            plan: '3 days',
-            real: '3 days'
+            plan: '10 days',
+            real: '10 days'
         }
     },
 ];

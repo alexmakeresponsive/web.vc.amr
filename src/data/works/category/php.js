@@ -31,7 +31,7 @@ var works = [
             'hosting'
         ],
         time: {
-            plan: '2 days',
+            plan: '3 days',
             real: '3 days'
         }
     },
