@@ -13,7 +13,7 @@
   .link {
     display: inline-block;
     text-align: center;
-    width: 48.3%;
+    //width: 48.3%;
     margin-left: 7.5px;
     margin-right: 7.5px;
     margin-bottom: 15px;
@@ -22,5 +22,28 @@
     font-family: $font-family-2;
 
     border: 1px solid #000000;
+  }
+
+  @media screen and (min-width: 240px) {
+    .link {
+      display: block;
+      width: 100.0%;
+    }
+  }
+  @media screen and (min-width: 576px) {
+    .link {
+      display: inline-block;
+      width: 47.0%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .link {
+      width: 47.8%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .link {
+      width: 48.3%;
+    }
   }
 }

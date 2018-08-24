@@ -6,4 +6,35 @@
   .logo {
 
   }
+
+  .nav {
+    display: block;
+    width: 100%;
+
+    position: absolute;
+    //bottom: 0;
+  }
+
+  @media screen and (min-width: 240px) {
+    .nav {
+      bottom: 0;
+    }
+    .logo {
+      padding-bottom: 60px;
+    }
+  }
+  @media screen and (min-width: 576px) {
+    .nav {
+      top: 0;
+    }
+    .logo {
+      padding-top: 0px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 992px) {
+
+  }
 }

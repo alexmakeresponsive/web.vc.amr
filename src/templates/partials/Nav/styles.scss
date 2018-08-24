@@ -3,16 +3,33 @@
 .nav {
   overflow: hidden;
   .list {
-    position: absolute;
+    //position: absolute;
     //width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
+    //top: 0;
+    //right: 0;
+    //left: 0;
 
 
     margin-left: -10px;
     margin-right: -10px;
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
+  }
+
+  @media screen and (min-width: 240px) {
+    .list {
+      justify-content: center;
+    }
+  }
+  @media screen and (min-width: 576px) {
+    .list {
+      justify-content: space-between;
+    }
+  }
+  @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 992px) {
+
   }
 }
