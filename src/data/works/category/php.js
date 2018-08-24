@@ -10,7 +10,7 @@ var works = [
         text:  'Clean and send mail via PHP',
         imgSrc: urlHostPath + 'assets/images/works/category/php/1/1.png',
         imgAlt: '',
-        createDate: '01-08-2018',
+        createDate: '16-07-2018',
         letter: 'D',
         color: {
             color: '#ffffff',
@@ -42,7 +42,7 @@ var works = [
         text:  'Clean and send mail via PHP. Create 3 step form',
         imgSrc: urlHostPath + 'assets/images/works/category/php/2/1.png',
         imgAlt: '',
-        createDate: '10-08-2018',
+        createDate: '18-08-2018',
         letter: 'H',
         color: {
             color: '#ffffff',
@@ -82,7 +82,7 @@ var works = [
         text:  'Clean and send mail via PHP',
         imgSrc: urlHostPath + 'assets/images/works/category/php/3/1.png',
         imgAlt: '',
-        createDate: '10-11-2017',
+        createDate: '11-11-2017',
         letter: 'D',
         color: {
             color: '#38414a',

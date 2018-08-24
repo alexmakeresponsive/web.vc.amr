@@ -10,7 +10,7 @@ var works = [
         text:  'Create E-mail template',
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/1/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '02-06-2017',
         letter: 'B',
         color: {
             color: '#ffffff',
@@ -41,7 +41,7 @@ var works = [
         text:  'Create E-mail template',
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/2/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '28-07-2018',
         letter: 'S',
         color: {
             color: '#ffffff',
@@ -68,7 +68,7 @@ var works = [
         text:  'Create E-mail template',
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/3/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '03-02-2018',
         letter: 'E',
         color: {
             color: '#ffffff',
@@ -95,7 +95,7 @@ var works = [
         text:  'Create E-mail template',
         imgSrc: urlHostPath + 'assets/images/works/category/e-mails/4/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '19-07-2017',
         letter: 'N',
         color: {
             color: '#ffffff',

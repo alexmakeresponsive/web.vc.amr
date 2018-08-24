@@ -10,7 +10,7 @@ var works = [
         text:  'Create html template',
         imgSrc: urlHostPath + 'assets/images/works/category/html/1/1.png',
         imgAlt: '',
-        createDate: '01-05-2017',
+        createDate: '26-11-2017',
         letter: 'G',
         color: {
             color: '#000',
@@ -50,7 +50,7 @@ var works = [
         text:  'Create html template',
         imgSrc: urlHostPath + 'assets/images/works/category/html/3/1.png',
         imgAlt: '',
-        createDate: '05-05-2017',
+        createDate: '10-06-2018',
         letter: 'E',
         color: {
             color: '#ffffff',
@@ -85,7 +85,7 @@ var works = [
         text:  'Create html form',
         imgSrc: urlHostPath + 'assets/images/works/category/html/4/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '18-08-2018',
         letter: 'H',
         color: {
             color: '#ffffff',
@@ -124,7 +124,7 @@ var works = [
         text:  'Create html template',
         imgSrc: urlHostPath + 'assets/images/works/category/html/5/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '03-03-2018',
         letter: 'S',
         color: {
             color: '#ffffff',
@@ -155,7 +155,7 @@ var works = [
         text:  'Create html form',
         imgSrc: urlHostPath + 'assets/images/works/category/html/6/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '16-07-2018',
         letter: 'D',
         color: {
             color: '#ffffff',
@@ -186,7 +186,7 @@ var works = [
         text:  'Create html template',
         imgSrc: urlHostPath + 'assets/images/works/category/html/7/1.png',
         imgAlt: '',
-        createDate: '-',
+        createDate: '06-06-2018',
         letter: 'W',
         color: {
             color: '#ffffff',
