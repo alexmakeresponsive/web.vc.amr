@@ -9,6 +9,14 @@ var data = {
         {
             label: 'Medium',
             link: 'https://medium.com/@-USER-NAME-'
+        },
+        {
+            label: 'Stack Overflow',
+            link: 'https://stackoverflow.com/users/5483095/USER-NAME'
+        },
+        {
+            label: 'Toster',
+            link: 'https://toster.ru/user/USER-NAME'
         }
     ]
 };
