@@ -1,5 +1,5 @@
 var urlHostPath = require('../../../hosting/path.js');
-var linkValue   = urlHostPath + 'works/wordpress.html';
+var linkValue   = urlHostPath + 'self/wordpress.html';
 
 
 var works = [

@@ -1,0 +1,62 @@
+@import "variables";
+
+.partGrid {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+
+
+  @media screen and (min-width: 240px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 576px) {
+
+  }
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+  @media screen and (min-width: 992px) {
+
+  }
+
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    //width: 50%;
+
+    @media screen and (min-width: 240px) {
+      width: 100%;
+    }
+    @media screen and (min-width: 576px) {
+
+    }
+    @media screen and (min-width: 768px) {
+      width: 50%;
+    }
+    @media screen and (min-width: 992px) {
+
+    }
+
+    .imgWr {
+      height: 600px;
+    }
+
+    .wr {
+      display: flex;
+      justify-content: center;
+      align-items:center;
+
+      height: 600px;
+      font-family: $font-family-3;
+      font-size: 200px;
+    }
+
+    a {
+      display: block;
+    }
+  }
+}

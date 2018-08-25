@@ -7,7 +7,7 @@
     <p>{{dataPage.text}}</p>
 
     <div class="categories">
-        <b class="helpTitle-1">Select work category</b>
+        <b class="helpTitle-1">Select project category</b>
         <nav class="navCategories">
             <ul class="list">
                 {{#each NavCategories}}
@@ -21,16 +21,16 @@
             </ul>
         </nav>
     </div>
-    <div class="partGrid" id="worksCategoriesContainer">
-        {{#each works}}
-            {{> ../../Works/list/default/markup}}
+    <div class="partGrid" id="selfCategoriesContainer">
+        {{#each self}}
+            {{> ../../Self/list/default/markup}}
         {{/each}}
     </div>
 
     <div class="containerCenter">
 
-    {{#if works}}
-        <button class="button button-1" id="buttonWorksCategoriesLoadMore">Load more works</button>
+    {{#if self}}
+        <button class="button button-1" id="buttonSelfCategoriesLoadMore">Load more projects</button>
     {{/if}}
     </div>
 

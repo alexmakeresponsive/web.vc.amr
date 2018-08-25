@@ -43,7 +43,9 @@ var entryPoints = {
     './templates/blog.templates.min':       ["./entry/blog.js"],
 
     './templates/works/categories.templates.min':      ["./entry/works/categories.js"],
+    './templates/self/categories.templates.min':      ["./entry/self/categories.js"],
     './templates/works/single/default.templates.min':     ["./entry/single/work/category/default.js"],
+    './templates/self/single/default.templates.min':     ["./entry/single/self/category/default.js"],
     // './templates/works/wordpress.templates.min':     ["./entry/single/work/category/wordpress.js"],
 
     './design/vendor/scripts.vendor.min': './design/vendor/hubScripts.js',

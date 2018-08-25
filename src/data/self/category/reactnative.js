@@ -1,5 +1,5 @@
 var urlHostPath = require('../../../hosting/path.js');
-var linkValue   = urlHostPath + 'works/codeigniter.html';
+var linkValue   = urlHostPath + 'self/reactnative.html';
 
 
 var works = [
