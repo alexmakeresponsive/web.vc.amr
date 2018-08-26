@@ -79,7 +79,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/html/smart-agency'
             }
         ],
         features: [
@@ -127,7 +127,7 @@ var works = [
         }
     },
     {
-        id: 5,
+        id: 6,
         link: linkValue,
         title: 'Build',
         text:  'React Template - one page',

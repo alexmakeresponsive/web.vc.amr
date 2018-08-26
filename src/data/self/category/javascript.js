@@ -56,7 +56,34 @@ var works = [
             plan: '1 days',
             real: '1 days'
         }
-    }
+    },
+    // {
+    //     id: 3,
+    //     link: linkValue,
+    //     title: 'Handlebars + Webpack: My web card ',
+    //     text:  'create multipage web card',
+    //     imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
+    //     imgAlt: '',
+    //     createDate: '26-08-2018',
+    //     letter: 'H',
+    //     color: {
+    //         color: '#ffffff',
+    //         background: '#242425'
+    //     },
+    //     web: [
+    //         {
+    //             label: 'bitbucket',
+    //             url: ''
+    //         }
+    //     ],
+    //     features: [
+    //         'RequireJS',
+    //     ],
+    //     time: {
+    //         plan: '1 days',
+    //         real: '1 days'
+    //     }
+    // }
 ];
 
 module.exports = works;
