@@ -24,6 +24,8 @@ function getCategory() {
 
 var loadmore = require('../../logic/ajax/loadmore');
 
+var getNavItems = require('../../logic/getNavItems');
+
 var template = {
     body: require('../../templates/partials/Body/works/categories.handlebars')
 };
@@ -37,8 +39,12 @@ var data = {
     },
     works: {
         first: require('../../data/works/category/' + getCategory() ).slice(0,2),
-        last: require('../../data/works/category/' + getCategory() ).slice(2)
+        last: require('../../data/works/category/' + getCategory() ).slice(2),
+        all: require('../../data/works/category/default' )
     },
+    self: {
+        all: require('../../data/self/category/default' )
+    }
 };
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -55,7 +61,8 @@ document.addEventListener("DOMContentLoaded", function() {
     div.innerHTML = template.body({
         dataPage: data.page,
         NavCategories: data.nav.works.categories,
-        NavItems: data.nav.main,
+        // NavItems: data.nav.main,
+        NavItems: getNavItems( data.nav.main, data.works.all, data.self.all ),
         works: data.works.first
     });
     document.body.appendChild(div);

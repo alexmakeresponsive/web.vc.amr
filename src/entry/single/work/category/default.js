@@ -1,3 +1,5 @@
+var getNavItems = require('../../../../logic/getNavItems');
+
 function getCategory() {
     var pre = window.location.pathname.replace( /\/works\//g, '' );
     var result = pre.replace( /.html/g, '' );
@@ -26,6 +28,12 @@ var data = {
     nav:   require('../../../../data/navitems'),
     work: {
         category: require('../../../../data/works/category/' + getCategory() )
+    },
+    works: {
+        all: require('../../../../data/works/category/default')
+    },
+    self: {
+        all: require('../../../../data/self/category/default')
     }
 };
 
@@ -66,7 +74,7 @@ function getWeb() {
 document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
     div.innerHTML = template.body({
-        NavItems: data.nav,
+        NavItems: getNavItems( data.nav, data.works.all, data.self.all ),
         title: work.title,
         text: work.text,
         imgSrc: work.imgSrc,

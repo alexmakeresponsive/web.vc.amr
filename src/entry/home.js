@@ -1,5 +1,7 @@
 var loadmore = require('../logic/ajax/loadmore');
 
+var getNavItems = require('../logic/getNavItems');
+
 var template = {
     body: require('../templates/partials/Body/home.handlebars')
 };
@@ -36,39 +38,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 
-function getNavItems() {
-    var result = [];
-
-    function getItemWorks(item) {
-        item.count = data.works.all.length;
-        return item;
-    }
-
-    function getItemSelf(item) {
-        item.count = data.self.all.length;
-        return item;
-    }
-
-    // console.log(data.nav.main);
-
-    data.nav.main.forEach(function (item, index) {
-        // console.log(item);
-        if (index === 2) {
-            result[index] = getItemWorks(item);
-            return;
-        }
-
-        if (index === 3) {
-            result[index] = getItemSelf(item);
-            return;
-        }
-        result[index] = item;
-    });
-
-    // console.log(result);
-
-    return result;
-}
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -76,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
 
     div.innerHTML = template.body({
-        NavItems: getNavItems(),
+        NavItems: getNavItems( data.nav.main, data.works.all, data.self.all ),
         NavCategories: data.nav.works.categories,
         NavCategoriesLink: data.nav.categories,
         works: data.works.first,
