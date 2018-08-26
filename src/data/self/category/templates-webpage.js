@@ -10,7 +10,7 @@ var works = [
         text:  'HTML Template - 7 pages',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
-        createDate: '',
+        createDate: '01-11-2017',
         letter: 'S',
         color: {
             color: '#ffffff',
@@ -40,7 +40,7 @@ var works = [
         text:  'HTML Template - 9 pages',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
-        createDate: '',
+        createDate: '13-11-2017',
         letter: 'T',
         color: {
             color: '#ffffff',
@@ -70,7 +70,7 @@ var works = [
         text:  'HTML Template - Landing page',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
-        createDate: '',
+        createDate: '08-10-2017',
         letter: 'S',
         color: {
             color: '#ffffff',
@@ -101,7 +101,7 @@ var works = [
         text:  'React Template - one page',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
-        createDate: '',
+        createDate: '19-06-2018',
         letter: 'D',
         color: {
             color: '#ffffff',
@@ -133,7 +133,7 @@ var works = [
         text:  'React Template - one page',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
-        createDate: '',
+        createDate: '24-06-2018',
         letter: 'B',
         color: {
             color: '#000000',
