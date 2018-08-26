@@ -7,7 +7,7 @@ var works = [
         id: 1,
         link: linkValue,
         title: 'Admin part for website',
-        text:  '',
+        text:  'User can register in website via e-mail, confirm e-mail, authorization on website, view profile, change password with confirm via e-mail',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '20-08-2016',

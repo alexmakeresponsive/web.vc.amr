@@ -7,7 +7,7 @@ var works = [
         id: 1,
         link: linkValue,
         title: 'PHP App',
-        text:  '',
+        text:  'Devschool: My Graduation work',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '20-06-2016',
