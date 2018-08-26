@@ -25,6 +25,7 @@ function getCategory() {
 var loadmore = require('../../logic/ajax/loadmore');
 
 var getNavItems = require('../../logic/getNavItems');
+var getNavCategoriesItems = require('../../logic/getNavCategoriesItems');
 
 var template = {
     body: require('../../templates/partials/Body/works/categories.handlebars')
@@ -40,6 +41,7 @@ var data = {
     works: {
         first: require('../../data/works/category/' + getCategory() ).slice(0,2),
         last: require('../../data/works/category/' + getCategory() ).slice(2),
+        allCategory: require('../../data/works/category/' + getCategory() ),
         all: require('../../data/works/category/default' )
     },
     self: {
@@ -56,11 +58,17 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
     div.innerHTML = template.body({
         dataPage: data.page,
-        NavCategories: data.nav.works.categories,
+        // NavCategories: data.nav.works.categories,
+        NavCategories: getNavCategoriesItems( data.nav.works.categories, 'works' ),
         // NavItems: data.nav.main,
         NavItems: getNavItems( data.nav.main, data.works.all, data.self.all ),
         works: data.works.first

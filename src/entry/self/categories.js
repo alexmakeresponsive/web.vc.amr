@@ -25,6 +25,7 @@ function getCategory() {
 var loadmore = require('../../logic/ajax/loadmore');
 
 var getNavItems = require('../../logic/getNavItems');
+var getNavCategoriesItems = require('../../logic/getNavCategoriesItems');
 
 var template = {
     body: require('../../templates/partials/Body/self/categories.handlebars')
@@ -62,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
     div.innerHTML = template.body({
         dataPage: data.page,
-        NavCategories: data.nav.self.categories,
+        NavCategories: getNavCategoriesItems( data.nav.self.categories, 'self' ),
         NavItems: getNavItems( data.nav.main, data.works.all, data.self.all ),
         self: data.self.first
     });

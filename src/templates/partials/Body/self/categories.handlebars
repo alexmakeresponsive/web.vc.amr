@@ -11,12 +11,21 @@
         <nav class="navCategories">
             <ul class="list">
                 {{#each NavCategories}}
-                    <li>
-                        <a class="link" href={{link}}?id_category={{id}}>
-                            {{label}}
-                            <span>&rArr;</span>
-                        </a>
-                    </li>
+                    {{#if count}}
+                        <li>
+                            <a class="link" href={{link}}?id_category={{id}}>
+                                {{label}} ({{count}})
+                                <span>&rArr;</span>
+                            </a>
+                        </li>
+                    {{else}}
+                        <li>
+                            <a class="link" href={{link}}?id_category={{id}}>
+                                {{label}}
+                                <span>&rArr;</span>
+                            </a>
+                        </li>
+                    {{/if}}
                 {{/each}}
             </ul>
         </nav>

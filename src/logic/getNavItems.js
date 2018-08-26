@@ -32,4 +32,4 @@ module.exports = function ( nav, works, self ) {
     // console.log(result);
 
     return result;
-}
+};
