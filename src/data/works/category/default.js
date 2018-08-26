@@ -25,4 +25,6 @@ pushTo( worksDefault, worksTemplates );
 pushTo( worksDefault, worksEMails );
 
 
+// console.log('count of works = ', worksDefault.length);
+
 module.exports = worksDefault;

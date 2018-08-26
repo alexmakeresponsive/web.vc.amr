@@ -1,3 +1,9 @@
-<li class="navItem {{className}}">
-    <a class="link" href={{href}}>{{label}}</a>
-</li>
+{{#if count}}
+    <li class="navItem {{className}}">
+        <a class="link" href={{href}}>{{label}} ({{count}})</a>
+    </li>
+{{else}}
+    <li class="navItem {{className}}">
+        <a class="link" href={{href}}>{{label}}</a>
+    </li>
+{{/if}}

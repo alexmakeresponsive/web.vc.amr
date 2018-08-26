@@ -37,4 +37,6 @@ pushTo( worksDefault, worksYii );
 pushTo( worksDefault, worksTemplates );
 
 
+// console.log('count of self = ', worksDefault.length);
+
 module.exports = worksDefault;
