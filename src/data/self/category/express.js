@@ -7,7 +7,7 @@ var works = [
         id: 1,
         link: linkValue,
         title: 'Express Authentification',
-        text:  '',
+        text:  'Create secure pages for valid users',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '01-07-2018',
@@ -24,7 +24,10 @@ var works = [
         ],
         features: [
             'Express',
-            'Mongo'
+            'Mongo',
+            'Mongoose',
+            'AsyncJS',
+            'CryptoJS',
         ],
         time: {
             plan: '5 days',
@@ -35,7 +38,7 @@ var works = [
         id: 2,
         link: linkValue,
         title: 'Express Simple CRUD',
-        text:  '',
+        text:  'Create simple CRUD',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '09-06-2018',

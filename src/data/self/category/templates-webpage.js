@@ -137,7 +137,7 @@ var works = [
         letter: 'B',
         color: {
             color: '#000000',
-            background: '#c4ae25'
+            background: '#c4ba52'
         },
         web: [
             {
