@@ -3,37 +3,37 @@ var linkValue   = urlHostPath + 'works/templates-webpage.html';
 
 
 var works = [
-    {
-        id: 1,
-        link: linkValue,
-        title: 'Garden Star',
-        text:  'Create html template',
-        imgSrc: urlHostPath + 'assets/images/works/category/html/1/1.png',
-        imgAlt: '',
-        createDate: '26-11-2017',
-        letter: 'G',
-        color: {
-            color: '#000',
-            background: '#a3f7c0'
-        },
-        web: [
-            {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru/'
-            },
-            // {
-            //     label: 'bitbucket',
-            //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
-            // }
-        ],
-        features: [
-            'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE9+ Support'
-        ],
-        time: {
-            plan: '3 days',
-            real: '3 days'
-        }
-    },
+    // {
+    //     id: 1,
+    //     link: linkValue,
+    //     title: 'Garden Star',
+    //     text:  'Create html template',
+    //     imgSrc: urlHostPath + 'assets/images/works/category/html/1/1.png',
+    //     imgAlt: '',
+    //     createDate: '26-11-2017',
+    //     letter: 'G',
+    //     color: {
+    //         color: '#000',
+    //         background: '#a3f7c0'
+    //     },
+    //     web: [
+    //         {
+    //             label: 'view',
+    //             url: 'https://alexmakeresponsive.ru/'
+    //         },
+    //         // {
+    //         //     label: 'bitbucket',
+    //         //     url: 'https://bitbucket.org/alexmakeresponsive/-PROJECT-NAME-/src'
+    //         // }
+    //     ],
+    //     features: [
+    //         'HTML', 'SASS', 'Bootstrap', 'jQuery', 'IE9+ Support'
+    //     ],
+    //     time: {
+    //         plan: '3 days',
+    //         real: '3 days'
+    //     }
+    // },
     // {
     //     id: 2,
     //     link: linkValue,
