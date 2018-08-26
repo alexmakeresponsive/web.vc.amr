@@ -27,6 +27,8 @@ var loadmore = require('../../logic/ajax/loadmore');
 var getNavItems = require('../../logic/getNavItems');
 var getNavCategoriesItems = require('../../logic/getNavCategoriesItems');
 
+var getButtonMoreClassVisible = require('../../logic/getButtonMoreClassVisible');
+
 var template = {
     body: require('../../templates/partials/Body/self/categories.handlebars')
 };
@@ -41,6 +43,7 @@ var data = {
     self: {
         first: require('../../data/self/category/' + getCategory() ).slice(0,2),
         last: require('../../data/self/category/' + getCategory() ).slice(2),
+        allCategory: require('../../data/self/category/' + getCategory() ),
         all: require('../../data/self/category/default')
     },
     works: {
@@ -65,7 +68,8 @@ document.addEventListener("DOMContentLoaded", function() {
         dataPage: data.page,
         NavCategories: getNavCategoriesItems( data.nav.self.categories, 'self' ),
         NavItems: getNavItems( data.nav.main, data.works.all, data.self.all ),
-        self: data.self.first
+        self: data.self.first,
+        buttonMoreClassVisible: getButtonMoreClassVisible( data.self.allCategory.length ),
     });
     document.body.appendChild(div);
 });

@@ -27,6 +27,8 @@ var loadmore = require('../../logic/ajax/loadmore');
 var getNavItems = require('../../logic/getNavItems');
 var getNavCategoriesItems = require('../../logic/getNavCategoriesItems');
 
+var getButtonMoreClassVisible = require('../../logic/getButtonMoreClassVisible');
+
 var template = {
     body: require('../../templates/partials/Body/works/categories.handlebars')
 };
@@ -71,7 +73,8 @@ document.addEventListener("DOMContentLoaded", function() {
         NavCategories: getNavCategoriesItems( data.nav.works.categories, 'works' ),
         // NavItems: data.nav.main,
         NavItems: getNavItems( data.nav.main, data.works.all, data.self.all ),
-        works: data.works.first
+        works: data.works.first,
+        buttonMoreClassVisible: getButtonMoreClassVisible( data.works.allCategory.length ),
     });
     document.body.appendChild(div);
 });

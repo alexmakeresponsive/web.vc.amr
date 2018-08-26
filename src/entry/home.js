@@ -1,6 +1,7 @@
 var loadmore = require('../logic/ajax/loadmore');
 
 var getNavItems = require('../logic/getNavItems');
+var getButtonMoreClassVisible = require('../logic/getButtonMoreClassVisible');
 
 var template = {
     body: require('../templates/partials/Body/home.handlebars')
@@ -49,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
         NavCategories: data.nav.works.categories,
         NavCategoriesLink: data.nav.categories,
         works: data.works.first,
+        buttonMoreClassVisible: getButtonMoreClassVisible( data.works.all.length ),
         dataPage: data.page
     });
 
