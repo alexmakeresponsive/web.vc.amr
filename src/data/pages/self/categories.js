@@ -45,7 +45,7 @@ var data = {
         },
         {
             id: 'javascript',
-            label: 'Javascript',
+            label: 'Other JS libraries',
             link: linkValue
         },
         // {

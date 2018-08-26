@@ -19,7 +19,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/css/position-fixed'
             }
         ],
         features: [
@@ -47,7 +47,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/css/sticky-footer/1'
             }
         ],
         features: [
@@ -74,7 +74,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/css/sticky-footer/2'
             }
         ],
         features: [
@@ -101,7 +101,35 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/css/svg/sprite'
+            }
+        ],
+        features: [
+            'PostCSS',
+            'SVG',
+        ],
+        time: {
+            plan: '1 days',
+            real: '1 days'
+        }
+    },
+    {
+        id: 5,
+        link: linkValue,
+        title: 'SVG Gradients',
+        text:  'Test different fills',
+        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
+        imgAlt: '',
+        createDate: '04-06-2018',
+        letter: 'G',
+        color: {
+            color: '#ffffff',
+            background: '#20787c'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru/projects/self/css/svg/gradient'
             }
         ],
         features: [

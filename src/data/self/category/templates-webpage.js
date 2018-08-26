@@ -19,7 +19,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/html/schon'
             }
         ],
         features: [
@@ -49,7 +49,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/html/tea-shop'
             }
         ],
         features: [
@@ -110,7 +110,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/html/docdoc'
             }
         ],
         features: [
@@ -142,7 +142,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                url: 'https://alexmakeresponsive.ru/projects/self/html/build'
             }
         ],
         features: [
