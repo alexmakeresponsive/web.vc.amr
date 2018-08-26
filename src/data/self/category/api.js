@@ -18,8 +18,8 @@ var works = [
         },
         web: [
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/jquery-vk-api/src/master/'
             }
         ],
         features: [
@@ -46,13 +46,14 @@ var works = [
         },
         web: [
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/nodejs-vk-api-via-promises/src/master/'
             }
         ],
         features: [
             'VK API',
             'Express',
+            'Promises',
         ],
         time: {
             plan: '7 days',

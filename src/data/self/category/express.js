@@ -18,8 +18,8 @@ var works = [
         },
         web: [
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/express-simple-authentification/src/master/'
             }
         ],
         features: [
@@ -38,7 +38,7 @@ var works = [
         id: 2,
         link: linkValue,
         title: 'Express Simple CRUD',
-        text:  'Create simple CRUD',
+        text:  'Create blog: 3 pages, without DB',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '09-06-2018',
@@ -49,8 +49,8 @@ var works = [
         },
         web: [
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/nodejs-blog-3-pages-without-db/src/master/'
             }
         ],
         features: [

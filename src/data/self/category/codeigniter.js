@@ -7,7 +7,7 @@ var works = [
         id: 1,
         link: linkValue,
         title: 'Routing',
-        text:  'Create 3 pages for blog',
+        text:  'Create 3 pages for blog, use router',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
         createDate: '01-03-2018',
@@ -18,8 +18,8 @@ var works = [
         },
         web: [
             {
-                label: 'view',
-                url: 'https://alexmakeresponsive.ru'
+                label: 'bitbucket',
+                url: 'https://bitbucket.org/alexmakeresponsive/codeigniter-simple-blog/src/master/'
             }
         ],
         features: [
