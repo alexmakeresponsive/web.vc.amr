@@ -210,6 +210,33 @@ var works = [
             real: '10 days'
         }
     },
+    {
+        id: 8,
+        link: linkValue,
+        title: 'Atlant Moscow',
+        text:  'Create html form',
+        imgSrc: urlHostPath + 'assets/images/works/category/html/4/1.png',
+        imgAlt: '',
+        createDate: '24-08-2018',
+        letter: 'A',
+        color: {
+            color: '#ffffff',
+            background: '#303c4b'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'http://atlant1.tilda.ws/'
+            }
+        ],
+        features: [
+            'HTML', 'CSS', 'jQuery'
+        ],
+        time: {
+            plan: '1 days',
+            real: '2 days'
+        }
+    },
 ];
 
 module.exports = works;

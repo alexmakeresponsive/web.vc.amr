@@ -105,6 +105,44 @@ var works = [
             plan: '1 day',
             real: '1 day'
         }
+    },
+    {
+        id: 1,
+        link: linkValue,
+        title: 'PHP Counter',
+        text:  'for counters on Tilda',
+        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
+        imgAlt: '',
+        createDate: '25-08-2018',
+        letter: 'P',
+        color: {
+            color: '#ffffff',
+            background: '#515887'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'http://heeelp.ru/credit'
+            },
+            {
+                label: 'result',
+                url: 'http://heeelp.ru/work'
+            },
+            {
+                label: 'result',
+                url: 'http://heeelp.ru/ip'
+            }
+        ],
+        features: [
+            'PHP',
+            'MySQL',
+            'Ajax',
+            'jQuery',
+        ],
+        time: {
+            plan: '1 days',
+            real: '1 days'
+        }
     }
 ];
 

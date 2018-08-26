@@ -30,6 +30,34 @@ var works = [
             plan: '5 days',
             real: '5 days'
         }
+    },
+    {
+        id: 2,
+        link: linkValue,
+        title: 'Express Simple CRUD',
+        text:  '',
+        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
+        imgAlt: '',
+        createDate: '09-06-2018',
+        letter: 'E',
+        color: {
+            color: '#ffffff',
+            background: '#263f4a'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru'
+            }
+        ],
+        features: [
+            'Express',
+            'Mongo'
+        ],
+        time: {
+            plan: '1 days',
+            real: '1 days'
+        }
     }
 ];
 

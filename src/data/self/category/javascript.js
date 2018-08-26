@@ -29,6 +29,33 @@ var works = [
             plan: '1 days',
             real: '1 days'
         }
+    },
+    {
+        id: 2,
+        link: linkValue,
+        title: 'RequireJS: Easy start',
+        text:  '',
+        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
+        imgAlt: '',
+        createDate: '09-06-2018',
+        letter: 'R',
+        color: {
+            color: '#ffffff',
+            background: '#2a5173'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru'
+            }
+        ],
+        features: [
+            'RequireJS',
+        ],
+        time: {
+            plan: '1 days',
+            real: '1 days'
+        }
     }
 ];
 

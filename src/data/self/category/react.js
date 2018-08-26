@@ -6,7 +6,7 @@ var works = [
     {
         id: 1,
         link: linkValue,
-        title: 'Minimal FLUX code base',
+        title: 'React + Flux + Express: Starter kit',
         text:  '',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
@@ -93,7 +93,7 @@ var works = [
     {
         id: 5,
         link: linkValue,
-        title: 'React Redux Virtual Card',
+        title: 'React Redux - My Virtual Card',
         text:  '',
         imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
         imgAlt: '',
@@ -143,6 +143,33 @@ var works = [
         time: {
             plan: '5 days',
             real: '5 days'
+        }
+    },
+    {
+        id: 6,
+        link: linkValue,
+        title: 'React: Starter kit with Livereload through Webpack',
+        text:  '',
+        imgSrc: urlHostPath + 'assets/images/works/category/codeigniter/1/1.png',
+        imgAlt: '',
+        createDate: '10-06-2018',
+        letter: 'R',
+        color: {
+            color: '#ffffff',
+            background: '#256b83'
+        },
+        web: [
+            {
+                label: 'view',
+                url: 'https://alexmakeresponsive.ru'
+            }
+        ],
+        features: [
+            'React',
+        ],
+        time: {
+            plan: '2 days',
+            real: '2 days'
         }
     }
 ];
