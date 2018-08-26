@@ -11,7 +11,9 @@
   }
 
   .link {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     //width: 48.3%;
     margin-left: 7.5px;
@@ -26,13 +28,12 @@
 
   @media screen and (min-width: 240px) {
     .link {
-      display: block;
       width: 100.0%;
     }
   }
   @media screen and (min-width: 576px) {
     .link {
-      display: inline-block;
+
       width: 47.0%;
     }
   }
@@ -43,7 +44,17 @@
   }
   @media screen and (min-width: 992px) {
     .link {
-      width: 48.3%;
+      width: 23.3%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .link {
+      width: 23.6%;
+    }
+  }
+  @media screen and (min-width: 1428px) {
+    .link {
+      width: 23.9%;
     }
   }
 }
