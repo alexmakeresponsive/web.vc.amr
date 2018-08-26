@@ -1,5 +1,5 @@
 function getCategory() {
-    var pre = window.location.pathname.replace( /\/works\//g, '' );
+    var pre = window.location.pathname.replace( /\/self\//g, '' );
     var result = pre.replace( /.html/g, '' );
 
     // console.log(pre);
@@ -19,20 +19,20 @@ function getId() {
 
 
 var template = {
-    body: require('../../../../templates/partials/Body/single/work/category/default.handlebars')
+    body: require('../../../../templates/partials/Body/single/self/category/default.handlebars')
 };
 
 var data = {
     nav:   require('../../../../data/navitems'),
-    work: {
-        category: require('../../../../data/works/category/' + getCategory() )
+    self: {
+        category: require('../../../../data/self/category/' + getCategory() )
     }
 };
 
 
 
 var postId = getId();
-var posts  = data.work.category;
+var posts  = data.self.category;
 
 
 function findPostId(array, postId) {
@@ -43,21 +43,21 @@ function findPostId(array, postId) {
 }
 
 var currentPostIndex = findPostId(posts, postId);
-var work;
+var self;
 var error = '';
 
 if ( currentPostIndex !== false ) {
-    work = posts[currentPostIndex];
+    self = posts[currentPostIndex];
 } else {
-    work = {};
+    self = {};
     error = 'Post not found';
 }
 
-// console.log(work);
+// console.log(self);
 
 function getWeb() {
-    if ( work.web.length !== 0 ) {
-        return work.web;
+    if ( self.web.length !== 0 ) {
+        return self.web;
     }
 
     return null;
@@ -67,13 +67,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var div = document.createElement('div');
     div.innerHTML = template.body({
         NavItems: data.nav,
-        title: work.title,
-        text: work.text,
-        imgSrc: work.imgSrc,
-        imgAlt: work.imgAlt,
-        createDate: work.createDate,
-        features: work.features,
-        time: work.time,
+        title: self.title,
+        text: self.text,
+        imgSrc: self.imgSrc,
+        imgAlt: self.imgAlt,
+        createDate: self.createDate,
+        features: self.features,
+        time: self.time,
         web: getWeb(),
         error: error,
     });
