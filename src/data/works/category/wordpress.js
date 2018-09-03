@@ -70,6 +70,35 @@ var works = [
             plan: '25 days',
             real: '25 days'
         }
+    },
+    {
+        id: 3,
+        link: linkValue,
+        title: 'Аренда автовышек',
+        text:  'optimize index page speed for Goorle PageSpeedInsights, write plugin',
+        imgSrc: urlHostPath + 'assets/images/works/category/wordpress/2/1.png',
+        imgAlt: '',
+        createDate: '01-09-2018',
+        letter: 'A',
+        color: {
+            color: '#2e2c2d',
+            background: '#ffc229'
+        },
+        web: [
+            {
+                label: 'result',
+                url: 'http://arenda-autovishka.ru/'
+            }
+        ],
+        features: [
+            'Wordpress',
+            'PHP',
+            'SQL',
+        ],
+        time: {
+            plan: '25 days',
+            real: '25 days'
+        }
     }
 ];
 
