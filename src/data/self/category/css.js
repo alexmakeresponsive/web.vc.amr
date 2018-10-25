@@ -19,7 +19,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/css/position-fixed'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/css/position-fixed'
             }
         ],
         features: [
@@ -47,7 +47,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/css/sticky-footer/1'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/css/sticky-footer/1'
             }
         ],
         features: [
@@ -74,7 +74,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/css/sticky-footer/2'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/css/sticky-footer/2'
             }
         ],
         features: [
@@ -101,7 +101,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/css/svg/sprite'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/css/svg/sprite'
             }
         ],
         features: [
@@ -129,7 +129,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/css/svg/gradient'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/css/svg/gradient'
             }
         ],
         features: [

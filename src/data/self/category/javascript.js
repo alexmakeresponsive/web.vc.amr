@@ -19,7 +19,7 @@ var works = [
     //     web: [
     //         {
     //             label: 'view',
-    //             url: 'https://alexmakeresponsive.ru'
+    //             url: 'http://89-108-103-235.cloudvps.regruhosting.ru'
     //         }
     //     ],
     //     features: [

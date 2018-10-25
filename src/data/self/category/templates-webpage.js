@@ -19,7 +19,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/html/schon'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/html/schon'
             }
         ],
         features: [
@@ -49,7 +49,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/html/tea-shop'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/html/tea-shop'
             }
         ],
         features: [
@@ -79,7 +79,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/html/smart-agency'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/html/smart-agency'
             }
         ],
         features: [
@@ -110,7 +110,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/html/docdoc'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/html/docdoc'
             }
         ],
         features: [
@@ -142,7 +142,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/self/html/build'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/self/html/build'
             }
         ],
         features: [

@@ -50,7 +50,7 @@ var works = [
         web: [
             // {
             //     label: 'view',
-            //     url: 'https://alexmakeresponsive.ru/'
+            //     url: 'http://89-108-103-235.cloudvps.regruhosting.ru/'
             // },
             {
                 label: 'instagram',
@@ -96,8 +96,8 @@ var works = [
             'SQL',
         ],
         time: {
-            plan: '25 days',
-            real: '25 days'
+            plan: '3 days',
+            real: '3 days'
         }
     }
 ];

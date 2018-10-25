@@ -19,7 +19,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/customer/templates-e-mail/biglead'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/customer/templates-e-mail/biglead'
             },
             // {
             //     label: 'bitbucket',
@@ -50,7 +50,7 @@ var works = [
         web: [
             // {
             //     label: 'view',
-            //     url: 'https://alexmakeresponsive.ru/'
+            //     url: 'http://89-108-103-235.cloudvps.regruhosting.ru/'
             // }
         ],
         features: [
@@ -77,7 +77,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/customer/templates-e-mail/evenza'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/customer/templates-e-mail/evenza'
             }
         ],
         features: [
@@ -104,7 +104,7 @@ var works = [
         web: [
             {
                 label: 'view',
-                url: 'https://alexmakeresponsive.ru/projects/customer/templates-e-mail/nail-lifehacks'
+                url: 'http://89-108-103-235.cloudvps.regruhosting.ru/projects/customer/templates-e-mail/nail-lifehacks'
             }
         ],
         features: [
